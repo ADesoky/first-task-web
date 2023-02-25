@@ -1,0 +1,175 @@
+body {
+    height: 4000px;
+    direction: rtl;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(D:\Gam3aa\html\sigmaTask\img\sigma.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home .nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.home .nav ul {
+    list-style-type: none;
+}
+
+.home .nav ul li {
+    float: left;
+    margin: 15px;
+}
+
+.home .nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+.home .nav ul .logo {
+    float: right;
+}
+
+.home .nav ul li img {
+    width: 90px;
+}
+
+/* ********end nav *********** */
+
+.home .caption {
+    display: flex;
+    padding: 10px 0px;
+    margin-right: 50px;
+
+}
+
+.home .caption .title h1 {
+
+    margin: 30px 0px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home .caption .title p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.home .caption .image img {
+    padding: 10px;
+    margin-right: 20px;
+    /* float: left; */
+    width: 100%;
+    height: 100%;
+}
+
+/* end home */
+.home .button .btn1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 0px;
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.home .button .btn1 {
+    background-color: darkblue;
+
+}
+
+/* end button */
+.home .parent {
+    display: flex;
+}
+
+.home .parent .child h1 {
+    margin: 30px 0px;
+    font-size: 50px;
+}
+
+.home .parent .child p {
+    margin: 30px 0px;
+    font-size: 20px;
+}
+
+.home .parent .childimg {
+    margin-left: 0%;
+}
+
+.home .service {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.home .service h1 {
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.home .service p {
+
+    font-size: 30px;
+    margin: 30px 0px;
+}
+
+.home .iconbox .tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    margin: 20px 30px 20px 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out .3s;
+}
+
+.home .iconbox .programing {
+    background-color: black;
+    margin: 20px 30px 20px 20px;
+}
+
+.home .iconbox .programing p {
+    font-size: 30px;
+}
+
+@media(max-width:950px) {
+    .child {
+        width: 30%;
+    }
+
+}
+
+@media(max-width:750px) {
+    .child {
+        width: 40%;
+    }
+
+}
+
+@media(max-width:600px) {
+    .child {
+        width: 90%;
+    }
+
+}
